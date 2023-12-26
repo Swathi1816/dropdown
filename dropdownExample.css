@@ -1,0 +1,72 @@
+nav{
+    background-color: orangered;
+}
+
+#container{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:hover{
+    background-color: green;
+}
+
+#id1
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+#id2
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+#id3
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+#veg:hover #id1{
+    display: block;
+     
+}
+
+ #nonveg:hover #id2{
+    display: block;
+}
+
+#drinks:hover #id3{
+    display: block;
+} 
